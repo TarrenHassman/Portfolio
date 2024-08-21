@@ -55,7 +55,7 @@ export default function Home() {
           objectFit: "cover",
         }}
       ></Image>
-
+      <Particles></Particles>
       <Canvas
         style={{
           height: "100vh",
@@ -70,14 +70,15 @@ export default function Home() {
       >
         <Scene></Scene>
       </Canvas>
-      <Particles></Particles>
       <NavigationButtons></NavigationButtons>
       <div
         className="z-10"
         style={{
           pointerEvents: "none",
         }}
-      ></div>
+      >
+        <Particles></Particles>
+      </div>
       <div className="w-full h-screen"></div>
     </main>
   );
