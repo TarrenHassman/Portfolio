@@ -3,7 +3,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--a),
     magenta,
     red,
@@ -34,7 +34,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--h) at 5%, 5%,
     magenta,
     red,
@@ -66,7 +66,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--b) at 95% 95%,
     cyan,
     blue,
@@ -102,7 +102,7 @@
   height: 100vh;
   width: 100vw;
 
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--c) at 55% 55%,
     yellow,
     green,
@@ -137,7 +137,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--d) at 30% 8%,
     red,
     yellow,
@@ -172,7 +172,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--e) at 70% 60%,
     red,
     yellow,
@@ -207,7 +207,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--f) at 55% 15%,
     magenta,
     red,
@@ -242,7 +242,7 @@
   top: 0;
   height: 100vh;
   width: 100vw;
-  background: conic-gradient(
+  background-image: conic-gradient(
     from var(--g) at 10% 95%,
     magenta,
     red,
