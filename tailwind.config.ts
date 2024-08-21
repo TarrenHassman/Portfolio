@@ -18,6 +18,9 @@ const config: Config = {
         'glass-inset': 'inset 0 17px 5px -9px rgba(255, 255, 244, 0.05)',
         'glass-sm': '5px 5px 20px 0px rgba(255, 255, 244, 1)'
       },
+      backgroundImage:{
+        'particle-radial': "radial-gradient(50% 50% at 50% 50% rgba(120, 81, 169, .5)0%, rgba(255, 255, 244, 1)100%"
+      },
       keyframes:{
         'spin-reverse':{
           "0%":{transform: "rotate(0deg)"},
