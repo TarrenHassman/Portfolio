@@ -8,11 +8,26 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      variants:{
+        span:["hover"]
       },
+      fontFamily: {
+        inter: ['var(--font-inter)']
+      },
+      boxShadow:{
+        'glass-inset': 'inset 0 17px 5px -9px rgba(255, 255, 244, 0.05)',
+        'glass-sm': '5px 5px 20px 0px rgba(255, 255, 244, 1)'
+      },
+      keyframes:{
+        'spin-reverse':{
+          "0%":{transform: "rotate(0deg)"},
+          "100%":{transform: "rotate(-360deg)"}
+        }
+      },
+      animation:{
+        "spin-slow": 'spin 40s linear infinite',
+        "spin-slow-reverse": 'spin-reverse 40s linear infinite',
+      }
     },
   },
   plugins: [],
