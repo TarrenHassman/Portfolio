@@ -7,9 +7,11 @@ import Particles from "./components/3components/Particles";
 import Background from "./components/background/Background";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-     <Background></Background>
+    <main
+    
+      className="flex min-h-screen flex-col items-center justify-between p-24"
+    >
+      <Background></Background>
       <Particles></Particles>
       <Canvas
         style={{

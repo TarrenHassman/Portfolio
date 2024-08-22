@@ -16,7 +16,7 @@ const ItemDetails = ({ children, className }) => {
 
 export default function AboutDetails() {
   return (
-    <section className="py-20 w-full">
+    <section className="py-20 w-full" style={{}}>
       <div className="grid grid-cols-12 gap-8 w-full">
         <ItemDetails
           className={"col-span-8 row-span-2 flex-col items-start space-y-8"}
@@ -43,23 +43,24 @@ export default function AboutDetails() {
         </ItemDetails>
         <ItemDetails className={"col-span-4"}>
           <p className="font-semibold text-left text-5xl">
-          10+<sub className="font-semibold text-sm">Years of Experience</sub>
+            10+<sub className="font-semibold text-sm">Years of Experience</sub>
           </p>
         </ItemDetails>
-        <ItemDetails className={"col-span-8 !p-0"}>
+        <ItemDetails className={"col-span-4 row-span-2 !p-0"}>
           <img
-          className="w-full h-auto"
-          src="https://readme-stats-five-nu.vercel.app/api/top-langs/?username=tarrenhassman&layout=donut&theme=transparent&hide_border=true&type=svg&background=7851a9b3&text_color=fffff4&title_color=fffff4&langs_count=8"
-          alt="Github Language Stats"
-          loading="Loading"
+            className="w-full h-auto"
+            src="https://readme-stats-five-nu.vercel.app/api/top-langs/?username=tarrenhassman&layout=donut&theme=transparent&hide_border=true&type=svg&background=7851a9b3&text_color=fffff4&title_color=fffff4&langs_count=8"
+            alt="Github Language Stats"
+            loading="Loading"
           ></img>
         </ItemDetails>
-        <ItemDetails className={"col-span-8 !p-0"}>
+
+        <ItemDetails className={"col-span-8 row-span-2 !p-0"}>
           <img
-          className="w-full h-auto"
-          src="https://skillicons.dev/icons?i=js,html,css,wasm"
-          alt="Github Language Stats"
-          loading="Loading"
+            className="w-full h-auto"
+            src="https://skillicons.dev/icons?i=js,html,css,wasm,ae,apple,androidstudio,angular,aws,babel,bash,blender,bun,c,cs,cpp,dart,docker,figma,firebase,flutter,flask,git,github,go,gradle,ipfs,java,kotlin,matlab,mongodb,mysql,nextjs,nodejs,postgres,powershell,py,react,r,regex,redis,rust,sqlite,solidity,tailwind,ts,unity,unreal,vim,vscode,vue,webpack,xd"
+            alt="Github Language Stats"
+            loading="Loading"
           ></img>
         </ItemDetails>
       </div>
