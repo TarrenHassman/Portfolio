@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/RenderModel.jsx", "src/app/components/DissolveMaterial.jsx", "src/app/components/NavButton.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/3components/RenderModel.jsx", "src/app/components/3components/DissolveMaterial.jsx", "src/app/components/NavButton.jsx", "src/app/projects/ProjectList.jsx", "src/app/projects/page.js"],
   "exclude": ["node_modules"]
 }

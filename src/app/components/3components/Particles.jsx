@@ -14,7 +14,7 @@ export default function Particles() {
       const particle = createParticle();
       console.log(particle)
       particles.push(particle)
-      const a = particles.slice(-24)
+      const a = particles.slice(-50)
       setParticles(a);
       console.log(particles);
     };

@@ -1,5 +1,5 @@
 import React from "react";
-import { BtnList } from "./data";
+import { BtnList } from "../data";
 import NavButton from "./NavButton";
 export default function NavigationButtons() {
   const angleIncrement = 360 / BtnList.length;

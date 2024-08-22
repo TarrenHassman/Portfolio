@@ -3,7 +3,7 @@ import { easing } from "maath";
 import * as React from "react";
 import * as THREE from "three";
 import CSM from "three-custom-shader-material";
-import { makeStaticProps } from "./server/fragmentShader";
+import { makeStaticProps } from "../server/fragmentShader";
 
 
 const vertexShader = /* glsl */ `

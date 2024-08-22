@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
-import Avatar from "./RenderModel";
+import Avatar from "./3components/RenderModel";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import Particles from "./Particles";
+import Particles from "./3components/Particles";
 export default function Scene() {
   useThree(({ camera }) => {
     camera.rotation.set(THREE.MathUtils.degToRad(12), 0, 0);
