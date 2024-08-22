@@ -16,6 +16,16 @@
   .pause {
     animation-play-state: paused;
   }
+  .custom-bg {
+    background: #7851a9b3;
+    border: 2px solid rgba(183, 110, 121, 0.8);
+    padding: 24px;
+    color: #fffff4;
+    border-radius: 10px;
+  }
+  .custom-bg:hover {
+    box-shadow: 5px 5px 15px 5px rgba(183, 110, 121, 1)
+  }
 }
 @keyframes move {
   0% {
@@ -26,13 +36,19 @@
     );
   }
   25% {
-    background-image: radial-gradient(rgba(255, 217, 0, .25) 10%, rgba(120, 81, 169, .25) 60%);
+    background-image: radial-gradient(
+      rgba(255, 217, 0, 0.25) 10%,
+      rgba(120, 81, 169, 0.25) 60%
+    );
   }
   50% {
     background-image: radial-gradient(gold 10%, rgba(120, 81, 169, 1) 60%);
   }
   75% {
-    background-image: radial-gradient(rgba(255, 217, 0, .75) 10%, rgba(120, 81, 169, .75) 60%);
+    background-image: radial-gradient(
+      rgba(255, 217, 0, 0.75) 10%,
+      rgba(120, 81, 169, 0.75) 60%
+    );
   }
   100% {
     transform: translate(100px, 100px);

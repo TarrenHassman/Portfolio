@@ -15,6 +15,7 @@ export default function Particles() {
       console.log(particle)
       particles.push(particle)
       const a = particles.slice(-50)
+      console.log(a)
       setParticles(a);
       console.log(particles);
     };
@@ -22,7 +23,11 @@ export default function Particles() {
     return ()=>clearInterval(interval);
   }, []);
   return (
-    <div className="fixed top-0 left-0 w-full h-full overflow-hidden">
+    <div className="fixed top-0 left-0 w-full h-full overflow-hidden"
+    style={{
+      pointerEvents:'none'
+    }}
+    >
       {particles.map((particle) => {
         return (
           <div

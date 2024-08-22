@@ -1,8 +1,18 @@
-import React from "react";
+"use client";
+import { motion } from "framer-motion";
+import Link from "next/link";
+const item = {
+  hidden: { opacity: 0, y: 100 },
+  show: { opacity: 1, y: 0 },
+};
 
-export default function Project({ name, description, date, demolink }) {
+const ProjectLink = motion(Link);
+export default function Project({ name, description, date, demoLink }) {
   return (
-    <div
+    <ProjectLink
+    variants={item}
+    href={demoLink}
+    target={"_blank"}
       style={{
         background: "#7851a9B3",
         height: "150px",
@@ -32,6 +42,6 @@ export default function Project({ name, description, date, demolink }) {
       >
         <p>{new Date(date).toDateString().slice(4)}</p>
       </div>
-    </div>
+    </ProjectLink>
   );
 }
